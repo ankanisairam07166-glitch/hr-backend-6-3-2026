@@ -14,7 +14,7 @@ from datetime import datetime
 from playwright.async_api import async_playwright, Page, BrowserContext, Request, Response
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────────
-BASE_URL      = "http://localhost:3000"
+BASE_URL      = "https://3.109.201.45.nip.io/"
 ADMIN_URL     = f"{BASE_URL}/admin"
 LOGIN_URL     = f"{BASE_URL}/login"
 DOWNLOAD_DIR  = Path("./downloaded_resumes")
